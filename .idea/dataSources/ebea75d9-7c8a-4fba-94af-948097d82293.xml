@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MongoDB - costmer@81.68.216.209">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.20">
+    <root id="1">
+      <ServerVersion>5.0.5</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="costmer">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="1" name="local"/>
+    <table id="6" parent="4" name="ageGte30"/>
+    <table id="7" parent="4" name="car"/>
+    <table id="8" parent="4" name="carView"/>
+    <table id="9" parent="4" name="human"/>
+    <table id="10" parent="4" name="system.views"/>
+    <column id="11" parent="7" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="12" parent="7" name="age">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="13" parent="7" name="hobbies">
+      <DataType>array(0)|2003s</DataType>
+    </column>
+    <column id="14" parent="7" name="likes">
+      <DataType>array(0)|2003s</DataType>
+    </column>
+    <column id="15" parent="7" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="16" parent="7" name="_class">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="17" parent="8" name="_id">
+      <DataType>ObjectId(0)|12s</DataType>
+    </column>
+    <column id="18" parent="8" name="_class">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="19" parent="8" name="age">
+      <DataType>Double(0)|8s</DataType>
+    </column>
+    <column id="20" parent="8" name="hobbies">
+      <DataType>array(0)|2003s</DataType>
+    </column>
+    <column id="21" parent="8" name="likes">
+      <DataType>array(0)|2003s</DataType>
+    </column>
+    <column id="22" parent="8" name="name">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="23" parent="10" name="_id">
+      <DataType>String(0)|12s</DataType>
+    </column>
+    <column id="24" parent="10" name="pipeline">
+      <DataType>list(0)|4999545s</DataType>
+    </column>
+    <column id="25" parent="10" name="viewOn">
+      <Position>1</Position>
+      <DataType>String(0)|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>
