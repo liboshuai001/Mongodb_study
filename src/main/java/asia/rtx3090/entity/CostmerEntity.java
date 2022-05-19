@@ -1,5 +1,6 @@
 package asia.rtx3090.entity;
 
+import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,6 +11,7 @@ import java.util.List;
 
 @Data
 @Document
+@Builder
 public class CostmerEntity {
 
     @MongoId
