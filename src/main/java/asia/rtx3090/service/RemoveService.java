@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,8 +15,9 @@ import java.util.stream.Collectors;
 /**
  * @Auther: Bernardo
  * @Date: 2022/5/19 21:50
- * @Description:
+ * @Description: 删除文档数据
  */
+@Service
 public class RemoveService {
 
     private MongoTemplate mongoTemplate;
