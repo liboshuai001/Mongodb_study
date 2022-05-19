@@ -1,11 +1,9 @@
 package asia.rtx3090.service;
 
 import asia.rtx3090.entity.CostmerEntity;
-import asia.rtx3090.vo.CostmerVO;
 import com.mongodb.client.result.UpdateResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.mongodb.core.ExecutableUpdateOperation;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
